@@ -1,0 +1,60 @@
+name: vakansi_bali
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.16.2 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+  form_field_validator: ^1.1.0
+  retrofit: ^3.0.1+1
+  json_annotation: ^4.5.0
+  dio: ^4.0.6
+  intl: ^0.17.0
+  flutter_rating_bar: ^4.0.1
+
+dev_dependencies: 
+  build_runner: ^2.1.11
+  flutter_lints: ^1.0.0
+  flutter_test: 
+    sdk: flutter
+  json_serializable: ^6.2.0
+  retrofit_generator: ^4.0.1
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+
+  fonts:
+    - family: Gaegu
+      fonts:
+        - asset: assets/fonts/Gaegu/Gaegu-Regular.ttf
+          style: normal
+        - asset: assets/fonts/Gaegu/Gaegu-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Gaegu/Gaegu-Bold.ttf
+          weight: 700
+    - family: Lexend_Deca
+      fonts:
+        - asset: assets/fonts/Lexend_Deca/LexendDeca-Regular.ttf
+          style: normal
+        - asset: assets/fonts/Lexend_Deca/LexendDeca-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Lexend_Deca/LexendDeca-Bold.ttf
+          weight: 700
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway/Raleway-Regular.ttf
+          style: normal
+        - asset: assets/fonts/Raleway/Raleway-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Raleway/Raleway-Bold.ttf
+          weight: 700
+
